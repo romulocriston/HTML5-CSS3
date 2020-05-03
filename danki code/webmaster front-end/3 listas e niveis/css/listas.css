@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	height: 100%; 
+}
+
+/* inside quer dizer dentro da box body*/
+ul.lista{
+	list-style-position: inside;
+	background-color: rgb(187, 187, 187);
+	width: 30%;
+}
+ul.lista2{
+	list-style-position: outside;
+	background-color: rgb(255, 203, 203);
+	width: 30%;
+}
+
+ul.lista li, ul.lista2 li{
+	color: blue;
+	margin-left: 30px;
+	padding: 5px 0 5px 0;
+	font-size: 20px;
+	text-shadow: 1px 1px 1px #777777;
+	/*display: inline-block;*/
+}
+
+li.item3{
+	color: black;
+}
+li.item3:hover{
+	color: black;
+	background-color: white;
+}

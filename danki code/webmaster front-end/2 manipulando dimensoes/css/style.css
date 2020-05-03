@@ -1,0 +1,55 @@
+﻿*{
+	margin: 0;
+	padding: 0;
+}
+
+html,body {
+	height: 100%; 
+}
+#layout {
+	width: 100%;
+	height: auto;
+	background-color: white;
+}
+.artigo {
+	width:80%;
+	height: auto;
+	background-color: rgb(228, 228, 228);
+	text-align: center;
+	padding: 30px;
+	margin-left: 8%;
+}
+.artigo2 {
+	width:80%;
+	height: auto;
+	background-color: rgb(149, 248, 255);
+	text-align: center;
+	padding: 30px;
+	margin-left: 8%;
+}
+.artigo h1 {
+	color:rgb(66, 149, 244);
+	font-size: 1.6em;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: small-caps;
+}
+
+.artigo p {
+	color: #b4b4b4;
+	text-align: justify;
+	font-size: 1.0625em;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 40px;
+	margin-top:12px;
+}
+.artigo2 p {
+	color: #5d5d5d;
+	text-align: justify;
+	font-size: 1.0625em;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 40px;
+	margin-top:12px;
+}

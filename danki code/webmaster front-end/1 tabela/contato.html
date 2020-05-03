@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="_css/contato.css">
+</head>
+<body>
+  <div class="menu">
+    <a href="index2.html"> Home </a>
+    <a href=""> Produtos </a>
+    <a href=""> Sobre </a>
+    <a href=""> Galeria </a>
+    <a href="contato.html"> Contato </a>
+  </div>
+  <img class="logo" src="_imagens/rc_logo.png" />
+  <img id="bottom-azul" src="_imagens/menu.jpg" />
+
+  <br/><br/>
+
+  <form method="POST" id="formContato" action="mailto:romulocriston@gmail.com">
+    <fieldset id="usuario">
+      <legend> Identificação do Usuário</legend>
+      <p><label for="cNome"> NOME: </label><input type="text" name="tNome" id="cNome" size="50" maxlength="60" placeholder=" Digite seu nome" /></p>
+      <p><label for="cMsg"> MENSAGEM:</label>
+        <textarea name="tMsg" id="cMsg" rows="2" cols="41" placeholder=" Deixe aqui sua mensagem"></textarea></p>
+    </fieldset>
+    <br/> <input type="submit" id="cButton" value="ENVIAR" />
+    <br/><br/>
+    <button>ENVIAR 2</button>
+  </form>
+
+  <br/><br/><br/><br/><br/>
+
+  <footer id="rodape">
+    <p>&copy; Copyright 2020 - by Rômulo Criston
+      <nav id="rodape_midias">
+        <a href="https://www.facebook.com.br" target="_blank"> Facebook </a> | 
+        <a href="https://instagram.com" target="_blank"> Instagram </a>
+      </nav>
+    </p>
+
+  </footer>
+</body>
+</html>
