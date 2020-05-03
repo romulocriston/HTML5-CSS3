@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        html,body {
+            height: 100%; 
+        } 
+        div.bg-espaco{
+            height: 852px;
+            background-image: url("img/espaco.jpg");
+            background-color: #cccccc;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        div#astronauta{
+            position: absolute;
+            width: 510px;
+            height: 520px;
+        }   
+        p{
+            padding: 20px;
+        }
+        button{
+            margin-left: 20px;
+        }
+        img{
+            height: 50%;
+            width: 50%;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="bg-espaco">
+        <p style="color: white; font-weight: bold;">Clique no botão para adicionar o astronauta.</p>
+        <button onclick="addAstronauta();" onmouseout="tirarAstronauta()">Mostrar</button>
+        <div id="astronauta">
+        </div>
+    </div>
+    
+    
+    <script>
+        function addAstronauta(){
+            document.getElementById("astronauta").style.backgroundImage = "url(img/astronauta.png)";
+        }
+        function tirarAstronauta(){
+            document.getElementById("astronauta").style.backgroundImage = "url(none)";
+        }
+    </script>
+</body>
+</html>

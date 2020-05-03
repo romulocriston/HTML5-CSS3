@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Identificação CSS - ID</title>
+    <style>
+        div{
+            background-color: darkgray;
+            border: 1px solid black;
+            width: 200px;
+            height: 200px;
+            display: inline-block;
+        }
+        div#area1{
+            background-color: brown;
+        }
+        div#area2{
+            background-color: darkgreen;
+        }
+        div#area3, div#area5{
+            background-color: darkblue;
+        }
+        
+        strong{
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+    <h1>Identificadores em CSS</h1>
+    <p>No exercício anterior, vimos as <mark>classes</mark> e entendemos que vários elementos podem ter uma mesma classe. Mas se quisermos <mark>identificar</mark> os elementos, dando um "nome" específico para cada um, podemos usar os <mark>IDs</mark>. Em um mesmo documento, <strong>não podemos ter dois elementos com o mesmo ID!</strong></p>
+
+    <div id="area1"></div>
+    <div id="area2"></div>
+    <div id="area3"></div>
+    <div id="area4"></div>
+    <div id="area5"></div>
+
+</body>
+</html>
